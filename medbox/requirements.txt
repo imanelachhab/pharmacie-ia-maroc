@@ -1,0 +1,19 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pandas>=2.0
+rapidfuzz>=3.0
+opencv-python-headless>=4.8
+numpy>=1.26
+pillow>=10.0
+# --- moteur OCR : au choix (au moins un des deux) ---
+pytesseract>=0.3.10        # + installer Tesseract (fra, ara) : voir README
+# easyocr>=1.7             # alternative : pip install easyocr (telecharge ~100 Mo de modeles au 1er lancement)
+# --- generation d'images de test et scraping ---
+arabic-reshaper>=3.0
+python-bidi>=0.4.2
+requests>=2.31
+beautifulsoup4>=4.12
+# --- tests ---
+# pytest
+# httpx

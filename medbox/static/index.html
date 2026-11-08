@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Reconnaître une boîte de médicament</title>
+<style>
+  :root { --bg:#f4efe4; --surface:#fff; --ink:#19281f; --muted:#66756c; --line:#e1dccd; --emerald:#0f6b4f; --deep:#0a3d2e;
+          --ok:#0f6b4f; --ok-bg:#d9efe3; --warn:#8a5a00; --warn-bg:#fbecc8; --bad:#b42318; --bad-bg:#fde7e4;
+          --serif:"Iowan Old Style","Palatino Linotype",Georgia,serif; --sans:"Segoe UI",system-ui,-apple-system,Tahoma,sans-serif; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0c1511; --surface:#15221d; --ink:#e6efe9; --muted:#98aaa0; --line:#263a32;
+          --emerald:#3dc48f; --deep:#0a2c22; --ok:#6be0b0; --ok-bg:#1d3a2f; --warn:#f3c776; --warn-bg:#3a2f14; --bad:#ff9d90; --bad-bg:#3d1c18; } }
+  * { box-sizing: border-box; } body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 var(--sans); }
+  header { background:var(--deep); color:#fff; padding:18px 20px; } header h1 { margin:0; font:600 22px var(--serif); }
+  header p { margin:2px 0 0; color:#b9dccc; font-size:14px; }
+  main { max-width:760px; margin:0 auto; padding:20px 16px 48px; display:grid; gap:16px; }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:16px; }
+  .drop { display:grid; place-items:center; gap:10px; text-align:center; min-height:220px; border:2px dashed var(--line); border-radius:14px;
+          padding:20px; cursor:pointer; background:var(--surface); }
+  .drop:hover, .drop.over { border-color:var(--emerald); } .drop img { max-width:100%; max-height:340px; border-radius:10px; }
+  .drop b { font:600 18px var(--serif); } .drop span { color:var(--muted); font-size:14px; }
+  .btns { display:flex; gap:10px; flex-wrap:wrap; justify-content:center; }
+  button { font:inherit; border-radius:999px; padding:9px 18px; border:1px solid var(--emerald); background:transparent; color:var(--emerald); cursor:pointer; font-weight:600; }
+  button.main { background:var(--emerald); color:#fff; } button:disabled { opacity:.45; cursor:default; }
+  :focus-visible { outline:3px solid #e8a33d; outline-offset:2px; }
+  .badge { display:inline-block; padding:3px 12px; border-radius:999px; font-weight:700; font-size:14px; }
+  .recognized { background:var(--ok-bg); color:var(--ok); } .uncertain { background:var(--warn-bg); color:var(--warn); }
+  .not_found, .no_text { background:var(--bad-bg); color:var(--bad); }
+  h2 { font:600 22px var(--serif); margin:8px 0 2px; } .sub { color:var(--muted); margin:0 0 10px; }
+  dl { display:grid; grid-template-columns:max-content 1fr; gap:4px 14px; margin:10px 0 0; font-size:15px; } dt { color:var(--muted); } dd { margin:0; }
+  .ev { margin:10px 0 0; padding:0; list-style:none; display:flex; flex-wrap:wrap; gap:6px; } .ev li { background:var(--ok-bg); color:var(--ok); border-radius:999px; padding:2px 10px; font-size:13px; }
+  .alt { display:flex; justify-content:space-between; gap:10px; padding:8px 0; border-top:1px solid var(--line); font-size:15px; } .alt small { color:var(--muted); display:block; }
+  .score { font-variant-numeric:tabular-nums; font-weight:700; color:var(--emerald); }
+  .tip { font-size:14px; color:var(--muted); } .spin { display:none; text-align:center; color:var(--muted); } .spin.on { display:block; }
+</style>
+</head>
+<body>
+<header><h1>Reconnaître une boîte de médicament</h1><p>Photo → lecture du texte (français / عربية) → correspondance avec la base</p></header>
+<main>
+  <label class="drop" id="drop" for="file">
+    <div id="ph"><b>Choisissez ou prenez une photo de la boîte</b><br><span>Glissez une image ici, ou touchez pour ouvrir l’appareil photo</span></div>
+    <img id="prev" alt="" hidden>
+  </label>
+  <input id="file" type="file" accept="image/*" capture="environment" hidden>
+  <div class="btns"><button class="main" id="go" disabled>Reconnaître</button><button id="reset" type="button">Autre photo</button></div>
+  <p class="spin" id="spin" role="status">Lecture de la boîte en cours… (quelques secondes)</p>
+  <section id="out" aria-live="polite"></section>
+  <p class="tip">Conseil : photographiez la face avant, bien éclairée, sans reflet, en remplissant le cadre. Les informations sont indicatives : vérifiez toujours avec votre pharmacien.</p>
+</main>
+<script>
+const $ = id => document.getElementById(id); let current = null;
+function el(t, c, x) { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; }
+function setFile(f) { if (!f) return; current = f; const u = URL.createObjectURL(f); $("prev").src = u; $("prev").hidden = false; $("ph").hidden = true; $("go").disabled = false; $("out").textContent = ""; }
+$("file").onchange = e => setFile(e.target.files[0]);
+$("reset").onclick = () => { current = null; $("prev").hidden = true; $("ph").hidden = false; $("go").disabled = true; $("out").textContent = ""; $("file").value = ""; };
+const dz = $("drop"); ["dragover", "dragenter"].forEach(n => dz.addEventListener(n, e => { e.preventDefault(); dz.classList.add("over"); }));
+["dragleave", "drop"].forEach(n => dz.addEventListener(n, e => { e.preventDefault(); dz.classList.remove("over"); }));
+dz.addEventListener("drop", e => setFile(e.dataTransfer.files[0]));
+const MSG = {recognized: "Médicament reconnu", uncertain: "Je ne suis pas sûr : voici les possibilités", not_found: "Aucun médicament correspondant dans la base", no_text: "Aucun texte lisible sur la photo"};
+function row(dl, k, v) { if (v == null || v === "") return; dl.append(el("dt", null, k), el("dd", null, v)); }
+function render(r) {
+  const o = $("out"); o.textContent = ""; const c = el("div", "card");
+  c.append(el("span", "badge " + r.status, MSG[r.status] || r.status));
+  const b = r.best;
+  if (b && r.status !== "not_found") {
+    c.append(el("h2", null, b.nom)); c.append(el("p", "sub", [b.forme, b.presentation].filter(Boolean).join(" · ")));
+    const dl = el("dl"); row(dl, "Dosage", b.dosage); row(dl, "Fabricant", b.fabricant);
+    row(dl, "Prix (PPV)", b.prix != null ? b.prix + " MAD" : null);
+    row(dl, "Remboursement", b.remboursement === true ? "Remboursable" : b.remboursement === false ? "Non remboursable" : null);
+    row(dl, "Confiance", Math.round(b.score * 100) + " %"); c.append(dl);
+    const ul = el("ul", "ev"); b.evidence.forEach(t => ul.append(el("li", null, t))); c.append(ul);
+  } else if (r.status === "no_text") c.append(el("p", "sub", "Reprenez la photo plus près, avec plus de lumière."));
+  else c.append(el("p", "sub", "Ce produit n’est peut-être pas dans la base, ou le nom n’est pas lisible. Reprenez la photo."));
+  if (r.candidates.length > 1 && r.status !== "not_found") {
+    c.append(el("h3", null, "Autres possibilités"));
+    r.candidates.slice(1).forEach(a => { const d = el("div", "alt"), l = el("div"); l.append(el("span", null, a.nom), el("small", null, [a.forme, a.presentation].filter(Boolean).join(" · ")));
+      d.append(l, el("span", "score", Math.round(a.score * 100) + " %")); c.append(d); });
+  }
+  o.append(c);
+}
+$("go").onclick = async () => {
+  if (!current) return; $("go").disabled = true; $("spin").classList.add("on"); $("out").textContent = "";
+  const fd = new FormData(); fd.append("image", current);
+  try {
+    const res = await fetch("/recognize", {method: "POST", body: fd}); const j = await res.json();
+    if (!res.ok) { const c = el("div", "card"); c.append(el("span", "badge not_found", typeof j.detail === "string" ? j.detail : "Erreur")); $("out").append(c); }
+    else render(j);
+  } catch (e) { const c = el("div", "card"); c.append(el("span", "badge not_found", "Serveur injoignable")); $("out").append(c); }
+  $("spin").classList.remove("on"); $("go").disabled = false;
+};
+</script>
+</body>
+</html>

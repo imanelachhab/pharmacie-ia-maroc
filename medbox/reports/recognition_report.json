@@ -1,0 +1,44 @@
+{
+  "n_images": 98,
+  "n_known": 70,
+  "n_unknown": 28,
+  "backend": "tesseract",
+  "fast": true,
+  "top1": 0.914,
+  "top3": 0.914,
+  "top1_with_dosage": 0.914,
+  "status_known": {
+    "recognized": 58,
+    "uncertain": 6,
+    "not_found": 6
+  },
+  "precision_when_recognized": 1.0,
+  "coverage_recognized": 0.829,
+  "top1_by_degradation": {
+    "blur": 1.0,
+    "clean": 1.0,
+    "crop": 0.9,
+    "dark": 1.0,
+    "glare": 0.7,
+    "noise": 1.0,
+    "rotate": 0.8
+  },
+  "top3_by_degradation": {
+    "blur": 1.0,
+    "clean": 1.0,
+    "crop": 0.9,
+    "dark": 1.0,
+    "glare": 0.7,
+    "noise": 1.0,
+    "rotate": 0.8
+  },
+  "unknown_products": {
+    "false_recognized": 0,
+    "status": {
+      "not_found": 15,
+      "uncertain": 13
+    }
+  },
+  "avg_ms": 3655,
+  "p95_ms": 6179
+}

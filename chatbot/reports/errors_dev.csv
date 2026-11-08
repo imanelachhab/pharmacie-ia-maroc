@@ -1,0 +1,7 @@
+﻿id,raw_text,language,style,gold_intent,pred_intent,gold_entities,pred_entities,pred_language
+q_00077,toplexil notice chno fiha,mixed,full,MEDICATION_INFO,MEDICATION_COMPOSITION + MEDICATION_INFO,['MEDICATION:toplexil'],['MEDICATION:toplexil'],mixed
+q_01016,هل Erus 5mg موجود في الصيدلية,ar,typo,MEDICATION_AVAILABILITY,PHARMACY_SEARCH,"['DOSAGE:5mg', 'MEDICATION:erlus']",['DOSAGE:5mg'],ar
+q_01339,ما هو ثمن دواء ecoclav enfont ؟,ar,typo,MEDICATION_PRICE,MEDICATION_PRICE,['MEDICATION:ecoclavenfant'],['MEDICATION:ecoclav'],ar
+q_01437,elus t3wid,darija_latin,short,MEDICATION_REIMBURSEMENT,MEDICATION_REIMBURSEMENT,['MEDICATION:erlus'],[],darija_latin
+q_01839,chno fih zlva w bch7al,darija_latin,multi,MEDICATION_COMPOSITION + MEDICATION_PRICE,MEDICATION_PRICE + MEDICATION_COMPOSITION,['MEDICATION:zelva'],[],darija_latin
+q_04271,augmentin notice chno fiha ?,mixed,full,MEDICATION_INFO,MEDICATION_COMPOSITION + MEDICATION_INFO,['MEDICATION:augmentin'],['MEDICATION:augmentin'],mixed

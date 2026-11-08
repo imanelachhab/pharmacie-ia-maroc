@@ -1,0 +1,51 @@
+﻿raw_text,language,intent,medication,dosage,city
+"salam khoya, wach kayn doliprane 1000 f pharmacie dyalkom ?",,MEDICATION_AVAILABILITY,Doliprane,,
+bghit n3ref ch7al kaysswa augmentin 1g,,MEDICATION_PRICE,Augmentin,,
+"Bonjour, je voudrais savoir si l'amoxil est remboursé par la CNSS",,MEDICATION_REIMBURSEMENT,Amoxil,,
+doliprane 500 mg ch7al,,MEDICATION_PRICE,Doliprane,,
+كنبغي نعرف ثمن الدوليبران,,MEDICATION_PRICE,Doliprane,,
+واش الدوليبران كيتعوض ؟,,MEDICATION_REIMBURSEMENT,Doliprane,,
+فين كاين شي صيدلية قريبة من أكدال,,PHARMACY_SEARCH,,,Rabat
+pharmacie de garde Casa ce soir,,PHARMACY_DUTY,,,Casablanca
+wach kayna chi pharmacie mdawma f fes ?,,PHARMACY_DUTY,,,Fès
+ch7al taman efferalgan 500 w wach kayt3awd,,MEDICATION_PRICE + MEDICATION_REIMBURSEMENT,Efferalgan,,
+composition dyal aspegic 1000,,MEDICATION_COMPOSITION,Aspegic,,
+smecta fach kaysalah ?,,MEDICATION_INFO,Smecta,,
+"salam, 3afak ch7al taman ventoline",,MEDICATION_PRICE,Ventoline,,
+Quel est le prix de l'Augmentin 1g ?,,MEDICATION_PRICE,Augmentin,,
+doliprane,,MEDICATION_INFO,Doliprane,,
+fin n9der nl9a pharmacie de garde f marrakech,,PHARMACY_DUTY,,,Marrakech
+واش كاين سبازفون عندكم ؟,,MEDICATION_AVAILABILITY,Spasfon,,
+شحال كيسوا الفولتارين ؟,,MEDICATION_PRICE,Voltarene,,
+هل الأوغمانتين مشمول بالتعويض ؟,,MEDICATION_REIMBURSEMENT,Augmentin,,
+chno hiya la composition dyal gaviscon ?,,MEDICATION_COMPOSITION,Gaviscon,,
+est-ce que le panadol est disponible ?,,MEDICATION_AVAILABILITY,Panadol,,
+bghit pharmacie f rabat agdal,,PHARMACY_SEARCH,,,Rabat
+ch7al taman dolipran 1000mg,,MEDICATION_PRICE,Doliprane,,
+wach rhumagrip kayn ola la ?,,MEDICATION_AVAILABILITY,Rhumagrip,,
+fin kayna pharmacie 9riba mn hay hassani,,PHARMACY_SEARCH,,,Casablanca
+prix ventolin,,MEDICATION_PRICE,Ventoline,,
+t3wid dyal clamoxyl ?,,MEDICATION_REIMBURSEMENT,Clamoxyl,,
+Pouvez-vous me dire à quoi sert le toplexil ?,,MEDICATION_INFO,Toplexil,,
+شنو كاين فالدافلون ؟,,MEDICATION_COMPOSITION,Daflon,,
+wach humex kayt3awd m3a la mutuelle,,MEDICATION_REIMBURSEMENT,Humex,,
+pharmacie ouverte la nuit à tanger,,PHARMACY_DUTY,,,Tanger
+chhal taman betadine,,MEDICATION_PRICE,Betadine,,
+SALAM wach 3ndkom exomuc ?,,MEDICATION_AVAILABILITY,Exomuc,,
+"Bonsoir, avez-vous du oroken ?",,MEDICATION_AVAILABILITY,Oroken,,
+كم ثمن دواء بنادول,,MEDICATION_PRICE,Panadol,,
+chno howa daflon,,MEDICATION_INFO,Daflon,,
+salam,,GREETING,,,
+chno hiya l3asima dyal lmaghrib,,OUT_OF_SCOPE,,,
+ch7al sa3a daba,,OUT_OF_SCOPE,,,
+kifach nsafar l casa,,OUT_OF_SCOPE,,,
+doliprane w amoxil ch7al taman,,MEDICATION_PRICE,Doliprane,,
+combien coûte le gaviscon 250 mg ?,,MEDICATION_PRICE,Gaviscon,,
+Gaviscon est remboursé ?,,MEDICATION_REIMBURSEMENT,Gaviscon,,
+wach l'efferalgan 1g mazal kayn f stock ?,,MEDICATION_AVAILABILITY,Efferalgan,,
+ma3lumat 3la spasfon,,MEDICATION_INFO,Spasfon,,
+prix spasfon 80mg,,MEDICATION_PRICE,Spasfon,,
+بغيت صيدلية قريبة من المعاريف,,PHARMACY_SEARCH,,,Casablanca
+فين كاينة صيدلية الحراسة فالرباط,,PHARMACY_DUTY,,,Rabat
+pharmacie garde fes,,PHARMACY_DUTY,,,Fès
+t9dr tgolia ch7al taman voltarene ?,,MEDICATION_PRICE,Voltarene,,

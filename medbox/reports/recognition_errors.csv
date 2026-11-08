@@ -1,0 +1,99 @@
+﻿file,degradation,known,gold,status,pred,score,top1,top3,top1_dose,ms,ocr_text
+00140_aspegic_clean.jpg,clean,True,aspegic,recognized,ASPEGIC 500 MG,1.0,True,True,True,2712,Boîte de 20 | Poudre en Sachet | SANOFI AVENTIS MAROC | 500 mg | 1669784801845 | أكياس | ASPEGIC | أعطع53 ومع
+00140_aspegic_blur.jpg,blur,True,aspegic,recognized,ASPEGIC 500 MG,0.914,True,True,True,3893,Poudre en Sachet | Boîte de 20 | 500 mg | SANOFI AVENTIS MAROC | أكياس | SPEGIC | DU | S W
+00140_aspegic_dark.jpg,dark,True,aspegic,recognized,ASPEGIC 500 MG,1.0,True,True,True,3113,Boîte de 20 | Poudre en Sachet | 500 mg | SANOFI AVENTIS MAROC | Boite de 20 | 1669784801845 | ASPEGIC | الها
+00140_aspegic_glare.jpg,glare,True,aspegic,recognized,ASPEGIC 500 MG,0.932,True,True,True,5946,Sachet | Boite de 20 | SANOFI AVENTIS MAROC | e 20 | ASPEGIC | e en Sachet | اكيا | mg
+00140_aspegic_rotate.jpg,rotate,True,aspegic,recognized,ASPEGIC 500 MG,0.982,True,True,True,4389,Boîte de 20 | SAN | SA | Poudre en Sachet | 500 mg | 669784 | أكياس | ASPEGIC
+00140_aspegic_crop.jpg,crop,True,aspegic,recognized,ASPEGIC 500 MG,0.982,True,True,True,2796,Boîte de 20 | Poudre en Sachet | 500 mg | ASPEGIC | أكياس | | 500 mg | wll | وء عونمم
+00140_aspegic_noise.jpg,noise,True,aspegic,recognized,ASPEGIC 500 MG,1.0,True,True,True,3704,Poudre en Sachet | 1669784801845 | 500 mg | SANOFI AVENTIS MAROC | Boîte de 20 | Boite de 20 | ASPEGI | ASPEGIC
+00919_clamoxyl_clean.jpg,clean,True,clamoxyl,recognized,CLAMOXYL 1 G,0.852,True,True,True,4748,Boîte de 12 | GLAXO SMITHKLINE | Comprimé dispersible | CLAMOXYL | 19 | + JuuS | ne dispersible | ML
+00919_clamoxyl_blur.jpg,blur,True,clamoxyl,recognized,CLAMOXYL 1 G,0.862,True,True,True,3867,dispersible | Boîte de 1 | CLAMOXYL | Comprimé dispersible | Boite de 12 | كلاموكسيل ' أقرا | Lg | volé: go AS
+00919_clamoxyl_dark.jpg,dark,True,clamoxyl,recognized,CLAMOXYL 1 G,0.852,True,True,True,3241,Boîte de 12 | 8412411824493 | GLAXO SMITHKLINE | Comprimé dispersible | CLAMOXYL | 19 | Il | nn
+00919_clamoxyl_glare.jpg,glare,True,clamoxyl,uncertain,ISPERID 1 MG,0.594,False,False,False,3525,YL | 8412411824493 | 19 | Boîte de 12 | Boite de 12 | Comprimé dispersible | 1g | GLAXO SMITHKLINE
+00919_clamoxyl_rotate.jpg,rotate,True,clamoxyl,recognized,CLAMOXYL 1 G,0.932,True,True,True,6493,8412411824493 | Boîte de 12 | Comprimé dispersible | Boite de 12 | كلاموكسيل ٠‏ أقراص | GLAXO SMITHKLINE | CLAMOXYL | اذا
+00919_clamoxyl_crop.jpg,crop,True,clamoxyl,uncertain,CLAMOXYL 1 G,0.78,True,True,True,2945,8412411824493 | Boite de 12 | CLAMO | GLAXO SMITHKLINE | 1g | Comprimé dispersil | Gomprime dispersil | اللا5 ا
+00919_clamoxyl_noise.jpg,noise,True,clamoxyl,uncertain,CLAMOXYL 1 G,1.0,True,True,True,4404,Boîte de 12 | 19 | GLAXO SMITHKLINE | Comprimé dispersible | CLAMOXYL | كلاموكسيل ٠‏ أقراص | Boite de 12 | 1g
+01246_doliprane_clean.jpg,clean,True,doliprane,recognized,DOLIPRANE 1 G,0.932,True,True,True,3092,Boîte de 8 | BOTTU S.A. | 9868727743487 | Boite de 8 | Comprimé effervescent sécable | 19 | DOLIPRANE | Lg
+01246_doliprane_blur.jpg,blur,True,doliprane,recognized,DOLIPRANE 1 G,1.0,True,True,True,3308,DOLIPRANE | أقراص | Comprimé effervescent sécable | 1g | BOTTU SA. | ig | Boite de 8 | wbsi
+01246_doliprane_dark.jpg,dark,True,doliprane,recognized,DOLIPRANE 1 G,1.0,True,True,True,3552,Boîte de 8 | 9868727743487 | Boite de 8 | Comprimé effervescent sécable | BOTTU | DOLIPRANE | lg | BOTTUS.A.
+01246_doliprane_glare.jpg,glare,True,doliprane,uncertain,DOLIPRANE 1 G,0.742,True,True,True,4105,Com | Compri | cent sécable | SA | 9868727743487 | ent sécable | DOLIPRANE | Boite
+01246_doliprane_rotate.jpg,rotate,True,doliprane,not_found,,0.0,False,False,False,7608,"9868727743487 | Boite de 8 | TTU S.A. | +9 effervescent sécable | 79 effervescent sécable | zz, | كك جره 01م | أمععوع لمعقع 6مطاتام لاه"
+01246_doliprane_crop.jpg,crop,True,doliprane,uncertain,DOLIPRANE 1 G,0.627,True,True,True,3592,te de 8 | 7743487 | nprimé effervescent sécable | TUS.A | 8 ع0 مغ | لا | م.ك | OLIPRANE
+01246_doliprane_noise.jpg,noise,True,doliprane,recognized,DOLIPRANE 1 G,1.0,True,True,True,3537,Com | en | Boîte de 8 | BOTTU S.A. | DOLIPRANE | 9868727743487 | Comprimé effervescent sécable | lg
+01357_efferalgan_clean.jpg,clean,True,efferalgan,recognized,EFFERALGAN 500 MG,1.0,True,True,True,2907,Boîte de 16 | 500 mg | Comprimé effervescent | LAPROPHAN | EFFERALGAN | لا | Dell + ol al | voll + old mal
+01357_efferalgan_blur.jpg,blur,True,efferalgan,recognized,EFFERALGAN 500 MG,1.0,True,True,True,3156,de 16 | 500 mg | EFFERALGAN | ae 10 | Comprime effervescent | ابفيرالفان ١‏ أفراص | لأ | LAPROPHAN
+01357_efferalgan_dark.jpg,dark,True,efferalgan,recognized,EFFERALGAN 500 MG,1.0,True,True,True,2865,Boîte de 16 | 500 mg | Comprimé effervescent | LAPROPHAN | EFFERALGAN | لا | لماع | ” أفراض
+01357_efferalgan_glare.jpg,glare,True,efferalgan,recognized,EFFERALGAN 500 MG,1.0,True,True,True,4513,Boîte de 16 | 500 mg | Boite de 16 | Comprimé effervesc | LAPROPHAN | Comprimé efferv | EFFERALGAN | EFFERALGA
+01357_efferalgan_rotate.jpg,rotate,True,efferalgan,recognized,EFFERALGAN 500 MG,1.0,True,True,True,5482,Boîte de 16 | Comprimé effervescent | Boite de 16 | 500 mg | LAPROPHAN | EFFERALGAN | ايفيرالغان ٠‏ أقراص | voll» aI
+01357_efferalgan_crop.jpg,crop,True,efferalgan,recognized,EFFERALGAN 500 MG,0.982,True,True,True,4337,Boîte de 16 | 500 mg | Comprimé effervescent | EFFERALGAN | | ADDMDLIANI | | لاظمم5ت5 ملم ١‏ | ” أفراض | أمععوع بارعأاء
+01357_efferalgan_noise.jpg,noise,True,efferalgan,recognized,EFFERALGAN 500 MG,1.0,True,True,True,3726,500 mg | Boîte de 16 | Boite de 16 | Comprimé effervescent | LAPROPHAN | EFFERALGAN | Eu | EE
+01688_gaviscon_clean.jpg,clean,True,gaviscon,recognized,GAVISCON 250 MG,0.982,True,True,True,3376,PHI | 4902787429671 | Boîte de 20 | Comprimé à la menthe sans sucre | 250 mg | غافيسكون ٠‏ أقراص | GAVISCON | 902787:
+01688_gaviscon_blur.jpg,blur,True,gaviscon,recognized,GAVISCON 250 MG,0.982,True,True,True,3460,250 mg | Boîte de 20 | PHI | Comprimé à la menthe sans sucre | Comprimé 3 la menthe sans sucre | GAVISCON | عافيسكون ٠‏ أقراص | AAT
+01688_gaviscon_dark.jpg,dark,True,gaviscon,recognized,GAVISCON 250 MG,1.0,True,True,True,5286,PHI | Boîte de 20 | Comprimé à la menthe sans sucre | Boite de 20 | 250 mg | Comprimé a la menthe sans sucre | GAVISCON | غافيسكون ٠‏ أقراص
+01688_gaviscon_glare.jpg,glare,True,gaviscon,recognized,GAVISCON 250 MG,0.982,True,True,True,3159,Boîte de | PHI | 4902787429671 | 250 mg | Comprimé à | غافيسكون | GAVISCON | sans sucre
+01688_gaviscon_rotate.jpg,rotate,True,gaviscon,recognized,GAVISCON 250 MG,0.857,True,True,True,4118,Boîte de 20 | Comprimé à la menthe sans sucre | 4902787429671 | 250 mg | GAVISCO | C1: | ااا | vel +
+01688_gaviscon_crop.jpg,crop,True,gaviscon,uncertain,GAVISCON 250 MG,0.71,True,True,True,3068,à la menthe sans sucre | 20 | غافيسكون ٠‏ أقراص | ISCON | لل | لا | عاءلا5 5م53 عطعغأمطعم 3اة | yall +
+01688_gaviscon_noise.jpg,noise,True,gaviscon,recognized,GAVISCON 250 MG,0.982,True,True,True,5897,Boîte de 20 | PHI | 4902787429671 | Comprimé à la menthe sans sucre | 250 mg | غافيسكون ٠‏ أقراص | GAVISCON | GAVISCO
+02845_oroken_clean.jpg,clean,True,oroken,recognized,OROKEN 200 MG,1.0,True,True,True,2477,Boîte de 8 | 200 mg | MAPHAR | Comprimé pelliculé | OROKEN | لا | غاباء أااعم | اللا
+02845_oroken_blur.jpg,blur,True,oroken,recognized,OROKEN 200 MG,1.0,True,True,True,3122,200 mg | Boîte de 8 | MAPHAR | Comprimé pelliculé | |OROKEN | | أااعم | ممم 0ه | ILE
+02845_oroken_dark.jpg,dark,True,oroken,recognized,OROKEN 200 MG,1.0,True,True,True,2805,1369594406409 | Boîte de 8 | 200 mg | MAPHAR | OROKEN | Comprimé pelliculé | IMI | غاناء أااعم
+02845_oroken_glare.jpg,glare,True,oroken,not_found,,0.0,False,False,False,3458,200 mg | 1369594406409 | Boîte de 8 | Boite de 8 | MAPHAR | Comprimé pelliculé | لا | اقراص
+02845_oroken_rotate.jpg,rotate,True,oroken,recognized,OROKEN 200 MG,1.0,True,True,True,6995,1369594406409 | 200 mg | Boite de 8 | MAPHAR | أقراص | OROKEN | Comprimé pelliculé | AN
+02845_oroken_crop.jpg,crop,True,oroken,not_found,,0.0,False,False,False,1922,Boîte de 8 | 369594406409 | 200 mg | 1369594406409 | Comprimé pelliculé | MAPHAR | غاباء | IMT
+02845_oroken_noise.jpg,noise,True,oroken,recognized,OROKEN 200 MG,0.978,True,True,True,4037,200 mg | Boîte de 8 | Boite de 8 | OROKE | MAPHAR | Comprimé pelliculé | اص | yo!
+03473_smecta_clean.jpg,clean,True,smecta,recognized,SMECTA 3 G,1.0,True,True,True,3324,3g | het | Boite de 30 | SMECTA | Poudre p | buvabl | MAPHAR | أكياس
+03473_smecta_blur.jpg,blur,True,smecta,recognized,SMECTA 3 G,1.0,True,True,True,4019,3g | Boîte de 30 | SMECTA | 3 9 | MAPHAR | Poudre Suspension buvable en sachet | Poudre Paul suspension buvable en sachet | اكياس
+03473_smecta_dark.jpg,dark,True,smecta,recognized,SMECTA 3 G,1.0,True,True,True,3958,Boîte de 30 | Poudre pour suspension buvable en sachet | 3g | Boite de 30 | MAPHAR | SMECTA | اللا | 8م محرا
+03473_smecta_glare.jpg,glare,True,smecta,recognized,SMECTA 3 G,1.0,True,True,True,3128,het | 76615654527 | Boîte de 30 | MAPHAR | 3g | buvabl | SMECTA | Poudre p
+03473_smecta_rotate.jpg,rotate,True,smecta,recognized,SMECTA 3 G,0.932,True,True,True,3999,Poudre pour susp | 7661565452711 | Boîte de 30 | het | Boite de 30 | on buvable en sachet | buvabl | MAPHAR
+03473_smecta_crop.jpg,crop,True,smecta,recognized,SMECTA 3 G,0.978,True,True,True,2818,3g | 7661565452711 | Boite de 30 | Poudre pour suspension buvable « | MAPHAR | SMECT | Poudre ae suspension buvable « | INT MT
+03473_smecta_noise.jpg,noise,True,smecta,recognized,SMECTA 3 G,1.0,True,True,True,4634,3g | 76615654527 | Poudre pour suspension buvable en sachet | Boite de 30 | MAPHAR | أكياس | SMECTA | 3 9
+03502_spasfon_clean.jpg,clean,True,spasfon,recognized,SPASFON 80 MG,1.0,True,True,True,4268,9782071518203 | ZENITH PHARMA | Boîte de 30 | 80 mg | SPASFON | Comprimé enrobé | 0 ma | jluw
+03502_spasfon_blur.jpg,blur,True,spasfon,recognized,SPASFON 80 MG,0.942,True,True,True,5647,80 mg | SPASFON | | اللا | Sote ce 3 | Sote oe | الى | ce | Fa
+03502_spasfon_dark.jpg,dark,True,spasfon,recognized,SPASFON 80 MG,1.0,True,True,True,3781,Boîte de 30 | ZENITH PHARMA | 80 mg | سبازفون | Comprimé enrobé | SPASFON | U9$ j | لا
+03502_spasfon_glare.jpg,glare,True,spasfon,recognized,SPASFON 80 MG,1.0,True,True,True,3122,Bo | 9782071518203 | ZENITH PHARMA | 80 mg | Compri | Boît | SPASFON | Comprimé enrobé
+03502_spasfon_rotate.jpg,rotate,True,spasfon,recognized,SPASFON 80 MG,0.852,True,True,True,7605,Boîte de 30 | ZENITH PHARMA | 80 m | SPASFON | Comprimé enrobé | بومع د | د ال و | اع 6 مأ م مف
+03502_spasfon_crop.jpg,crop,True,spasfon,recognized,SPASFON 80 MG,0.994,True,True,True,3434,9782071518203 | ZENITH PHARMA | 80 mg | Boite de 30 | SPASF | Comprimé enrobe | ل[ الاعاى | UMMM
+03502_spasfon_noise.jpg,noise,True,spasfon,recognized,SPASFON 80 MG,1.0,True,True,True,3917,ZENITH PHARMA | 9782071518203 | Boîte de 30 | 80 mg | Comprimé enrobé | SPASFON | SPASFON | | j law
+03912_voltarene_clean.jpg,clean,True,voltarene,recognized,VOLTARENE 100 MG,1.0,True,True,True,3649,100 mg | Boîte de 10 | NOVARTIS PHARMA MAROC | 1952058527722 | تحاميل | VOLTARENE | Suppositoire | Ji
+03912_voltarene_blur.jpg,blur,True,voltarene,recognized,VOLTARENE 100 MG,1.0,True,True,True,3534,100 mg | Boîte de 10 | Boite de 10 | Suppositoire | VOLTARENE | NOVARTIS PHARMA MAROC | LL LIL) | تحاميل
+03912_voltarene_dark.jpg,dark,True,voltarene,recognized,VOLTARENE 100 MG,1.0,True,True,True,3331,100 mg | Boîte de 10 | NOVARTIS PHARMA MAROC | Suppositoire | 1952058527722 | تحاميل | VOLTARENE | 19520585277.
+03912_voltarene_glare.jpg,glare,True,voltarene,not_found,,0.0,False,False,False,4003,Boîte de 10 | NOVARTIS PHARMA MAROC | RENE | Boite de 10 | 100 mg | 1952058527722 | Suppositoire | تحاميل
+03912_voltarene_rotate.jpg,rotate,True,voltarene,recognized,VOLTARENE 100 MG,1.0,True,True,True,4729,100 mg | Boîte de 10 | NOVARTIS PHARMA MAROC | تحاميل | VOLTARENE | Suppositoire | ظ ع | MOI
+03912_voltarene_crop.jpg,crop,True,voltarene,recognized,VOLTARENE 100 MG,1.0,True,True,True,6162,Boîte de 10 | Boite de 10 | 100 mg | OLTARENE | Suppositoire | تحاميل | VOLTARENE | 24
+03912_voltarene_noise.jpg,noise,True,voltarene,recognized,VOLTARENE 100 MG,1.0,True,True,True,3504,Boîte de 10 | 100 mg | NOVARTIS PHARMA MAROC | VOLTARENE | Suppositoire | تحاميل | Boîte ae 10 | ظ مجاملا
+04953_panadol_clean.jpg,clean,True,panadol,recognized,PANADOL 500 MG,1.0,True,True,True,3541,Boîte de 20 | 500 mg | GLAXO SMITHKLINE | Comprimé pelliculé | PANADOL | 6اناء أااعم | NI | WA
+04953_panadol_blur.jpg,blur,True,panadol,recognized,PANADOL 500 MG,1.0,True,True,True,2770,"Boîte de 20 | 500 mg | GLAXO SMITHKLINE | Comprimé pelliculé | PANADOL | AU, ult | | 6ابء أااعم | AIN"
+04953_panadol_dark.jpg,dark,True,panadol,recognized,PANADOL 500 MG,1.0,True,True,True,2723,Boîte de 20 | 500 mg | 6471027677359 | GLAXO SMITHKLINE | Comprimé pelliculé | PANADOL | WMT | الل
+04953_panadol_glare.jpg,glare,True,panadol,recognized,PANADOL 500 MG,1.0,True,True,True,3942,6471027677359 | 500 mg | GLAXO SMITHKLINE | Comprimé pelliculé | PANADOL | Boî | Bolt | MILI
+04953_panadol_rotate.jpg,rotate,True,panadol,not_found,,0.0,False,False,False,3890,Boîte de 20 | Boite de 20 | SM | LAX | GLAXO | o SM | Comprimé pelliculé | 647102 7
+04953_panadol_crop.jpg,crop,True,panadol,not_found,PANADOL 500 MG,0.529,True,True,True,3071,20 | NADOL | ) mg | né pelliculé | ITHKLINE | 6اباءأااعم 6م | لا | IM
+04953_panadol_noise.jpg,noise,True,panadol,recognized,PANADOL 500 MG,1.0,True,True,True,4264,DO | PAN | Boîte de 20 | 500 mg | 6471027677359 | Comprimé pelliculé | GLAXO SMITHKLINE | PANADOL
+fake_zornel_clean.jpg,clean,False,zornel,uncertain,MEZOR 20 MG,0.655,False,False,False,1879,500 mg | Boîte de 14 | PHARMA 5 | Comprimé | ZORNEL | 6 مم مره
+fake_zornel_blur.jpg,blur,False,zornel,not_found,,0.0,False,False,False,2243,Boîte de 14 | 500 mg | ZORNEL | Comprimé | PHARMA 5 | 300 Mg | 5 بارا ةإبراام7 | OMARMA 5
+fake_zornel_dark.jpg,dark,False,zornel,not_found,,0.0,False,False,False,2206,500 mg | PHARMA 5 | Boîte de 14 | اص | ZORNEL | Comprimé | vol
+fake_zornel_glare.jpg,glare,False,zornel,not_found,,0.0,False,False,False,1921,Boîte de 14 | PHARMA | 500 mg | PHARMA 5 | ZORNEL | Comprimé | ممم
+fake_zornel_rotate.jpg,rotate,False,zornel,uncertain,MEZOR 20 MG,0.655,False,False,False,4909,PHARMA 5 | Boîte de 14 | 500 mg | | Boîte de 14 | | PHARMA 5 | Comprimé | أقراص | ZORNEL
+fake_zornel_crop.jpg,crop,False,zornel,not_found,,0.0,False,False,False,1712,ng | علد | kNEL
+fake_zornel_noise.jpg,noise,False,zornel,not_found,,0.0,False,False,False,2598,Boîte de 14 | 500 mg | PHARMA 5 | ZORNEL | Comprimé | اض | ES | 6 مم لكره 6
+fake_zordra_clean.jpg,clean,False,zordra,uncertain,MEZOR 20 MG,0.655,False,False,False,2360,COOPER PHARMA | Boite de 30 | Comprimé | ZORDRA | 1g | نا | lg | DLL
+fake_zordra_blur.jpg,blur,False,zordra,not_found,,0.0,False,False,False,2187,19 | Boîte de 30 | COOPER PHARMA | Bolte de 30 | ZORDRA | Comprime | Comprimé | lg
+fake_zordra_dark.jpg,dark,False,zordra,uncertain,MEZOR 20 MG,0.705,False,False,False,2381,Boîte de 30 | 9568783391878 | COOPER PHARMA | 19 | Comprimé | ZORDRA | الم | (OTN
+fake_zordra_glare.jpg,glare,False,zordra,not_found,,0.0,False,False,False,2532,9568783391878 | COOPER PHARMA | Boite de 30 | Comprime | 1g | اقراص | ZORDBA | ع اام م0
+fake_zordra_rotate.jpg,rotate,False,zordra,not_found,,0.0,False,False,False,3617,9568783391878 | COOPER PHARMA | Boite de 30 | ig | Lg | Comprimé | ORDRA | LI
+fake_zordra_crop.jpg,crop,False,zordra,uncertain,MEZOR 20 MG,0.655,False,False,False,2625,COOPER PHARMA | Boite de 30 | 1g | Comprimé | ZORDRA | لاط مجعم 600 | uN | NL
+fake_zordra_noise.jpg,noise,False,zordra,not_found,,0.0,False,False,False,2910,اص | COOPER PHARMA | Boite de 30 | قر | Comprimé | 1g | ZORDRA | RDRA
+fake_quensy_clean.jpg,clean,False,quensy,uncertain,TOTHEMA,0.554,False,False,False,2624,Boîte de 14 | 20 mg | QUENSY | دواء | Gélule | SOTHEMA | slo2 | APE)
+fake_quensy_blur.jpg,blur,False,quensy,not_found,,0.0,False,False,False,2678,20 mg | Boîte de 14 | QUENSY | Gélule | ناو | 4 ع0 عومه | عليز 20 | كركلا
+fake_quensy_dark.jpg,dark,False,quensy,uncertain,TOTHEMA,0.554,False,False,False,2535,Boîte de 14 | Boite de 14 | 20 mg | SOTHEMA | QUENSY | Gélule | دواء | ملاع 50
+fake_quensy_glare.jpg,glare,False,quensy,uncertain,TOTHEMA,0.604,False,False,False,4932,20 | Boîte de 14 | Boite de 14 | SOTHEMA | Gélule | دواء | QUENSY | JUENS
+fake_quensy_rotate.jpg,rotate,False,quensy,uncertain,TOTHEMA,0.554,False,False,False,4802,20m | Boîte de 14 | 20 mg | Boite de 14 | SOTHEMA | Gélule | دواء | QUENSY
+fake_quensy_crop.jpg,crop,False,quensy,not_found,,0.0,False,False,False,2396,Boîte de 14 | 20 mg | Gélule | دواء | QUENSY | Slo
+fake_quensy_noise.jpg,noise,False,quensy,uncertain,TOTHEMA,0.554,False,False,False,2522,Boîte de 14 | 20 mg | Boite de 14 | QUENSY | | Gélule | SOTHEMA | دواء | QUENSY
+fake_mirtakar_clean.jpg,clean,False,mirtakar,not_found,MIRATA 150 MG,0.538,False,False,False,2487,3926142939685 | COOPER PHARMA | Boîte de 20 | 250 mg | Gélule | دواء | MIRTAKAR | slo
+fake_mirtakar_blur.jpg,blur,False,mirtakar,not_found,MIRATA 150 MG,0.538,False,False,False,2594,COOPER PHARMA | Boîte de 20 | 250 mg | Bolte de 20 | MIRTAKAR | Gélule | دواء | Sly.
+fake_mirtakar_dark.jpg,dark,False,mirtakar,not_found,MIRATA 150 MG,0.538,False,False,False,2648,COOPER PHARMA | Boîte de 20 | 250 mg | MIRTAKAR | Gélule | دواء | PS) | له
+fake_mirtakar_glare.jpg,glare,False,mirtakar,uncertain,AIRTAL 100 MG,0.608,False,False,False,2509,250 mg | COOPER PHARMA | Boîte de 20 | Gélule | دواء | MIRTAKAR | MIRTA | 1 لا
+fake_mirtakar_rotate.jpg,rotate,False,mirtakar,not_found,MIRATA 150 MG,0.538,False,False,False,3231,3926142939685 | COOPER PHARMA | Boîte de 20 | 250 mg | دواء | Gélule | MIRTAKAR | slo
+fake_mirtakar_crop.jpg,crop,False,mirtakar,uncertain,INALER 100 µG,0.588,False,False,False,4434,pu | VIN | انك | al | MERS | oo | oe | ae
+fake_mirtakar_noise.jpg,noise,False,mirtakar,uncertain,AIRTAL 100 MG,0.608,False,False,False,6279,250 mg | COOPER PHARMA | Boîte de 20 | Gélule | دواء | 3926142939685 | MIRTA | MIRTAKAR

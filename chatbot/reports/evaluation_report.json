@@ -1,0 +1,221 @@
+{
+  "dev": {
+    "split": "dev",
+    "n": 450,
+    "intent_exact_match_accuracy": 0.9933,
+    "intent_per_label": {
+      "GREETING": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "MEDICATION_AVAILABILITY": {
+        "precision": 1.0,
+        "recall": 0.988,
+        "f1": 0.994,
+        "support": 81
+      },
+      "MEDICATION_COMPOSITION": {
+        "precision": 0.968,
+        "recall": 1.0,
+        "f1": 0.984,
+        "support": 61
+      },
+      "MEDICATION_INFO": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 36
+      },
+      "MEDICATION_PRICE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 144
+      },
+      "MEDICATION_REIMBURSEMENT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 80
+      },
+      "OUT_OF_SCOPE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "PHARMACY_DUTY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 39
+      },
+      "PHARMACY_SEARCH": {
+        "precision": 0.98,
+        "recall": 1.0,
+        "f1": 0.99,
+        "support": 50
+      }
+    },
+    "intent_macro_f1": 0.9964,
+    "accuracy_by_language": {
+      "darija_latin": 1.0,
+      "fr": 1.0,
+      "mixed": 0.976,
+      "ar": 0.981,
+      "darija_ar": 1.0
+    },
+    "accuracy_by_style": {
+      "short": 1.0,
+      "full": 0.992,
+      "typo": 0.982,
+      "multi": 1.0,
+      "out_of_scope": 1.0
+    },
+    "entities_per_label": {
+      "CITY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 87
+      },
+      "DOSAGE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 109
+      },
+      "MEDICATION": {
+        "precision": 0.997,
+        "recall": 0.989,
+        "f1": 0.993,
+        "support": 369
+      },
+      "QUARTIER": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      }
+    },
+    "entities_micro_f1": 0.996,
+    "language_id_accuracy_strict": 0.8489,
+    "language_id_accuracy_relaxed": 0.9356,
+    "n_errors_logged": 6
+  },
+  "test": {
+    "split": "test",
+    "n": 900,
+    "intent_exact_match_accuracy": 0.9889,
+    "intent_per_label": {
+      "GREETING": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "MEDICATION_AVAILABILITY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 171
+      },
+      "MEDICATION_COMPOSITION": {
+        "precision": 0.962,
+        "recall": 0.992,
+        "f1": 0.977,
+        "support": 126
+      },
+      "MEDICATION_INFO": {
+        "precision": 0.989,
+        "recall": 1.0,
+        "f1": 0.994,
+        "support": 86
+      },
+      "MEDICATION_PRICE": {
+        "precision": 0.985,
+        "recall": 1.0,
+        "f1": 0.992,
+        "support": 258
+      },
+      "MEDICATION_REIMBURSEMENT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 160
+      },
+      "OUT_OF_SCOPE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "PHARMACY_DUTY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 83
+      },
+      "PHARMACY_SEARCH": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 97
+      }
+    },
+    "intent_macro_f1": 0.9959,
+    "accuracy_by_language": {
+      "darija_ar": 1.0,
+      "fr": 1.0,
+      "mixed": 0.964,
+      "ar": 0.966,
+      "darija_latin": 1.0
+    },
+    "accuracy_by_style": {
+      "multi": 1.0,
+      "full": 0.989,
+      "short": 1.0,
+      "typo": 0.967,
+      "out_of_scope": 1.0
+    },
+    "entities_per_label": {
+      "CITY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 171
+      },
+      "DOSAGE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 181
+      },
+      "MEDICATION": {
+        "precision": 0.989,
+        "recall": 0.977,
+        "f1": 0.983,
+        "support": 735
+      },
+      "QUARTIER": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 17
+      }
+    },
+    "entities_micro_f1": 0.989,
+    "language_id_accuracy_strict": 0.8722,
+    "language_id_accuracy_relaxed": 0.9467,
+    "n_errors_logged": 25
+  },
+  "handwritten": {
+    "n": 50,
+    "intent_exact_match_accuracy": 1.0,
+    "medication_accuracy": 1.0,
+    "city_accuracy": 1.0,
+    "intent_failures": []
+  }
+}

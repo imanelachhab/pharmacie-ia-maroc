@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Configuration locale et secrets
+.env
+.env.*
+
+# Données et images (régénérables ou protégées)
+kb/
+kb_demo/
+data/synthetic/
+data/test/
+data/reference/
+data/reference_test/
+data/real/
+data/scraped/
+
+# Langues Tesseract copiées en local
+tessdata/
+*.traineddata
+
+# Sorties temporaires
+*.log
+*.zip
+
+# Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

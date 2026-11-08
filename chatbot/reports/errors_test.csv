@@ -1,0 +1,26 @@
+﻿id,raw_text,language,style,gold_intent,pred_intent,gold_entities,pred_entities,pred_language
+q_00208,d rubicin فيه شنو ؟,darija_ar,full,MEDICATION_COMPOSITION,MEDICATION_COMPOSITION,['MEDICATION:drubicin'],[],darija_ar
+q_00256,شنو هي تركيبة Valphi plus ؟,darija_ar,full,MEDICATION_COMPOSITION,MEDICATION_COMPOSITION,['MEDICATION:valphiplus'],['MEDICATION:valphi'],darija_ar
+q_00440,chno fih Vfnd w bch7al ?,darija_latin,multi,MEDICATION_COMPOSITION + MEDICATION_PRICE,MEDICATION_PRICE + MEDICATION_COMPOSITION,['MEDICATION:vfend'],[],darija_latin
+q_00562,Ineos disponible ?,fr,short,MEDICATION_AVAILABILITY,MEDICATION_AVAILABILITY,['MEDICATION:ineso'],['MEDICATION:ideos'],fr
+q_00628,bghit des infos 3la ineos,mixed,typo,MEDICATION_INFO,MEDICATION_INFO,['MEDICATION:ineso'],['MEDICATION:ideos'],mixed
+q_00693,daaflon notice shno fiha ?,mixed,typo,MEDICATION_INFO,MEDICATION_COMPOSITION + MEDICATION_INFO,['MEDICATION:daflon'],['MEDICATION:daflon'],mixed
+q_00850,ما هو principe actif ديال hmuex؟,mixed,typo,MEDICATION_COMPOSITION,MEDICATION_INFO,['MEDICATION:humex'],['MEDICATION:atiaf'],mixed
+q_00872,هل يتم تعويض ثمن أسبيجيك,ar,full,MEDICATION_REIMBURSEMENT,MEDICATION_PRICE + MEDICATION_REIMBURSEMENT,['MEDICATION:aspegic'],['MEDICATION:aspegic'],ar
+q_01158,Parlez-moi de D rubicin,fr,full,MEDICATION_INFO,MEDICATION_INFO,['MEDICATION:drubicin'],[],fr
+q_01268,ventoline notice chno fiha,mixed,full,MEDICATION_INFO,MEDICATION_COMPOSITION + MEDICATION_INFO,['MEDICATION:ventoline'],['MEDICATION:ventoline'],mixed
+q_02359,هل يتم تعويض ثمن فينتولين 100 µg ؟,ar,full,MEDICATION_REIMBURSEMENT,MEDICATION_PRICE + MEDICATION_REIMBURSEMENT,"['DOSAGE:100ug', 'MEDICATION:ventoline']","['DOSAGE:100ug', 'MEDICATION:ventoline']",ar
+q_02639,هل يتم تعويض ثمن valphi plus؟,ar,full,MEDICATION_REIMBURSEMENT,MEDICATION_PRICE + MEDICATION_REIMBURSEMENT,['MEDICATION:valphiplus'],['MEDICATION:valphi'],ar
+q_02700,sh7al l taman dyal Oriken 200mg ?,darija_latin,typo,MEDICATION_PRICE,MEDICATION_PRICE,"['DOSAGE:200mg', 'MEDICATION:oroken']","['DOSAGE:200mg', 'MEDICATION:ofiken']",darija_latin
+q_02702,Quelle est la composition de D rubicin et son prix ?,fr,multi,MEDICATION_COMPOSITION + MEDICATION_PRICE,MEDICATION_PRICE + MEDICATION_COMPOSITION,['MEDICATION:drubicin'],[],fr
+q_02955,ixomuc 200mg prix,fr,short,MEDICATION_PRICE,MEDICATION_PRICE,"['DOSAGE:200mg', 'MEDICATION:exomuc']",['DOSAGE:200mg'],fr
+q_02986,voxcib notice chno fiha,mixed,full,MEDICATION_INFO,MEDICATION_COMPOSITION + MEDICATION_INFO,['MEDICATION:voxcib'],['MEDICATION:voxcib'],mixed
+q_03151,wach 3andkom Aroken 200 mg ?,darija_latin,typo,MEDICATION_AVAILABILITY,MEDICATION_AVAILABILITY,"['DOSAGE:200mg', 'MEDICATION:oroken']",['DOSAGE:200mg'],darija_latin
+q_03230,Efferalgan 3% notice chno fiha ?,mixed,full,MEDICATION_INFO,MEDICATION_COMPOSITION + MEDICATION_INFO,"['DOSAGE:3%', 'MEDICATION:efferalgan']","['DOSAGE:3%', 'MEDICATION:efferalgan']",mixed
+q_03303,سعر ieso,ar,short,MEDICATION_PRICE,MEDICATION_PRICE,['MEDICATION:ineso'],[],ar
+q_03453,هل يتم تعويض ثمن zavlox,ar,typo,MEDICATION_REIMBURSEMENT,MEDICATION_PRICE + MEDICATION_REIMBURSEMENT,['MEDICATION:zivlox'],['MEDICATION:zivlox'],ar
+q_03498,aspigic notice chno fiha,mixed,typo,MEDICATION_INFO,MEDICATION_COMPOSITION + MEDICATION_INFO,['MEDICATION:aspegic'],['MEDICATION:aspegic'],mixed
+q_03830,ما هو ثمن دواء vaphi plus ؟,ar,typo,MEDICATION_PRICE,MEDICATION_PRICE,['MEDICATION:valphiplus'],['MEDICATION:valphi'],ar
+q_04283,C'est combien Axomuc ?,fr,typo,MEDICATION_PRICE,MEDICATION_PRICE,['MEDICATION:exomuc'],[],fr
+q_04311,Combien coûte D rubicin ?,fr,full,MEDICATION_PRICE,MEDICATION_PRICE,['MEDICATION:drubicin'],[],fr
+q_04357,valphu plus pour quoi kaytst3mel ?,mixed,typo,MEDICATION_INFO,MEDICATION_INFO,['MEDICATION:valphiplus'],['MEDICATION:valphi'],mixed

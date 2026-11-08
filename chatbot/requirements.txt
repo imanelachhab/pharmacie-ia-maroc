@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pandas>=2.0
+rapidfuzz>=3.0
+python-multipart>=0.0.9
+# --- optionnel : message vocal (/speech) ---
+# faster-whisper>=1.0
+# --- tests ---
+# pytest
+# httpx

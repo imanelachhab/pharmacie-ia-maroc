@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Configuration locale et secrets
+.env
+.env.*
+
+# Données scrapées (droits d'auteur, conditions des sites) et base générée
+kb/
+kb_demo/
+queries/
+data/raw/
+*.xlsx
+*.sqlite
+*.db
+
+# Audio et modèles
+data/audio/
+*.wav
+*.mp3
+*.webm
+*.joblib
+
+# Sorties temporaires
+*.log
+*.zip
+
+# Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
